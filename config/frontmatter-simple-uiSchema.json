@@ -1,63 +1,75 @@
 {
-  "ui:order": ["title", "description", "summary", "date", "lastmod", "draft", "weight", "toc", "seo"],
+  "ui___COLON___order": [
+    "title",
+    "description",
+    "summary",
+    "date",
+    "lastmod",
+    "draft",
+    "weight",
+    "toc",
+    "seo"
+  ],
   "title": {
-    "ui:autofocus": true,
-    "ui:placeholder": "Page title"
+    "ui___COLON___autofocus": true,
+    "ui___COLON___placeholder": "Page title"
   },
   "description": {
-    "ui:widget": "textarea",
-    "ui:placeholder": "Brief description for SEO",
-    "ui:options": {
+    "ui___COLON___widget": "textarea",
+    "ui___COLON___placeholder": "Brief description for SEO",
+    "ui___COLON___options": {
       "rows": 2
     }
   },
   "summary": {
-    "ui:widget": "textarea",
-    "ui:placeholder": "Summary for cards and lists",
-    "ui:options": {
+    "ui___COLON___widget": "textarea",
+    "ui___COLON___placeholder": "Summary for cards and lists",
+    "ui___COLON___options": {
       "rows": 2
     }
   },
   "date": {
-    "ui:widget": "datetime"
+    "ui___COLON___widget": "datetime"
   },
   "lastmod": {
-    "ui:widget": "datetime"
+    "ui___COLON___widget": "datetime"
   },
   "draft": {
-    "ui:widget": "checkbox"
+    "ui___COLON___widget": "checkbox"
   },
   "weight": {
-    "ui:widget": "updown",
-    "ui:help": "Lower numbers appear first"
+    "ui___COLON___widget": "updown",
+    "ui___COLON___help": "Lower numbers appear first"
   },
   "toc": {
-    "ui:widget": "checkbox",
-    "ui:help": "Show table of contents (docs pages)"
+    "ui___COLON___widget": "checkbox",
+    "ui___COLON___help": "Show table of contents (docs pages)"
   },
   "seo": {
-    "ui:order": ["title", "description", "canonical", "noindex"],
-    "ui:options": {
+    "ui___COLON___order": [
+      "title",
+      "description",
+      "canonical",
+      "noindex"
+    ],
+    "ui___COLON___options": {
       "collapsed": true
     },
     "title": {
-      "ui:placeholder": "Leave empty to use page title"
+      "ui___COLON___placeholder": "Leave empty to use page title"
     },
     "description": {
-      "ui:widget": "textarea",
-      "ui:placeholder": "Custom meta description",
-      "ui:options": {
+      "ui___COLON___widget": "textarea",
+      "ui___COLON___placeholder": "Custom meta description",
+      "ui___COLON___options": {
         "rows": 2
       }
     },
     "canonical": {
-      "ui:placeholder": "https://example.com/"
+      "ui___COLON___placeholder": "https://example.com/"
     },
     "noindex": {
-      "ui:widget": "checkbox"
+      "ui___COLON___widget": "checkbox"
     }
   }
 }
-
-
-
