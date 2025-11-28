@@ -1,5 +1,5 @@
 {
-  "ui:order": [
+  "ui___COLON___order": [
     "title",
     "description",
     "summary",
@@ -28,192 +28,189 @@
     "resources"
   ],
   "title": {
-    "ui:autofocus": true,
-    "ui:placeholder": "Enter page title..."
+    "ui___COLON___autofocus": true,
+    "ui___COLON___placeholder": "Enter page title..."
   },
   "description": {
-    "ui:widget": "textarea",
-    "ui:placeholder": "Brief description for SEO and metadata...",
-    "ui:options": {
+    "ui___COLON___widget": "textarea",
+    "ui___COLON___placeholder": "Brief description for SEO and metadata...",
+    "ui___COLON___options": {
       "rows": 2
     },
-    "ui:help": "Shown in search results and social media previews"
+    "ui___COLON___help": "Shown in search results and social media previews"
   },
   "summary": {
-    "ui:widget": "textarea",
-    "ui:placeholder": "Short summary for card displays...",
-    "ui:options": {
+    "ui___COLON___widget": "textarea",
+    "ui___COLON___placeholder": "Short summary for card displays...",
+    "ui___COLON___options": {
       "rows": 3
     },
-    "ui:help": "Displayed on list pages and in blog cards"
+    "ui___COLON___help": "Displayed on list pages and in blog cards"
   },
   "lead": {
-    "ui:widget": "textarea",
-    "ui:placeholder": "Lead paragraph (supports HTML)...",
-    "ui:options": {
+    "ui___COLON___widget": "textarea",
+    "ui___COLON___placeholder": "Lead paragraph (supports HTML)...",
+    "ui___COLON___options": {
       "rows": 2
     },
-    "ui:help": "Prominently displayed below the title on the page"
+    "ui___COLON___help": "Prominently displayed below the title on the page"
   },
   "date": {
-    "ui:widget": "datetime",
-    "ui:help": "Publication date in ISO 8601 format"
+    "ui___COLON___widget": "datetime",
+    "ui___COLON___help": "Publication date in ISO 8601 format"
   },
   "lastmod": {
-    "ui:widget": "datetime",
-    "ui:help": "Last modification date in ISO 8601 format"
+    "ui___COLON___widget": "datetime",
+    "ui___COLON___help": "Last modification date in ISO 8601 format"
   },
   "draft": {
-    "ui:widget": "radio",
-    "ui:help": "Draft pages are not published in production"
+    "ui___COLON___widget": "radio",
+    "ui___COLON___help": "Draft pages are not published in production"
   },
   "weight": {
-    "ui:widget": "updown",
-    "ui:help": "Lower numbers appear first in navigation and lists"
+    "ui___COLON___widget": "updown",
+    "ui___COLON___help": "Lower numbers appear first in navigation and lists"
   },
   "toc": {
-    "ui:widget": "radio",
-    "ui:help": "Show/hide table of contents for this page (docs pages)"
+    "ui___COLON___widget": "radio",
+    "ui___COLON___help": "Show/hide table of contents for this page (docs pages)"
   },
   "type": {
-    "ui:widget": "select",
-    "ui:placeholder": "Select content type...",
-    "ui:help": "Determines which layout template Hugo uses for this page"
+    "ui___COLON___widget": "select",
+    "ui___COLON___placeholder": "Select content type...",
+    "ui___COLON___help": "Determines which layout template Hugo uses for this page"
   },
   "categories": {
-    "ui:options": {
+    "ui___COLON___options": {
       "orderable": true
     },
     "items": {
-      "ui:placeholder": "Enter category name"
+      "ui___COLON___placeholder": "Enter category name"
     },
-    "ui:help": "Used primarily for blog posts to organize content"
+    "ui___COLON___help": "Used primarily for blog posts to organize content"
   },
   "tags": {
-    "ui:options": {
+    "ui___COLON___options": {
       "orderable": true
     },
     "items": {
-      "ui:placeholder": "Enter tag name"
+      "ui___COLON___placeholder": "Enter tag name"
     },
-    "ui:help": "Keywords for categorizing and finding content"
+    "ui___COLON___help": "Keywords for categorizing and finding content"
   },
   "contributors": {
-    "ui:options": {
+    "ui___COLON___options": {
       "orderable": true
     },
     "items": {
-      "ui:placeholder": "Contributor name"
+      "ui___COLON___placeholder": "Contributor name"
     },
-    "ui:help": "Names should match contributor taxonomy terms"
+    "ui___COLON___help": "Names should match contributor taxonomy terms"
   },
   "pinned": {
-    "ui:widget": "checkbox",
-    "ui:help": "Pin this post to the top of blog listings"
+    "ui___COLON___widget": "checkbox",
+    "ui___COLON___help": "Pin this post to the top of blog listings"
   },
   "homepage": {
-    "ui:widget": "checkbox",
-    "ui:help": "Feature this content on the site homepage"
+    "ui___COLON___widget": "checkbox",
+    "ui___COLON___help": "Feature this content on the site homepage"
   },
   "headline": {
-    "ui:placeholder": "Alternative headline text...",
-    "ui:help": "Used instead of title on taxonomy and list pages"
+    "ui___COLON___placeholder": "Alternative headline text...",
+    "ui___COLON___help": "Used instead of title on taxonomy and list pages"
   },
   "avatar": {
-    "ui:placeholder": "avatar.jpg",
-    "ui:help": "Image filename from page bundle (for contributor pages)"
+    "ui___COLON___placeholder": "avatar.jpg",
+    "ui___COLON___help": "Image filename from page bundle (for contributor pages)"
   },
   "exclude_search": {
-    "ui:widget": "checkbox",
-    "ui:help": "Exclude this page from FlexSearch indexing"
+    "ui___COLON___widget": "checkbox",
+    "ui___COLON___help": "Exclude this page from FlexSearch indexing"
   },
   "sitemap_exclude": {
-    "ui:widget": "checkbox",
-    "ui:help": "Exclude this page from sitemap.xml"
+    "ui___COLON___widget": "checkbox",
+    "ui___COLON___help": "Exclude this page from sitemap.xml"
   },
   "seo": {
-    "ui:order": [
+    "ui___COLON___order": [
       "title",
       "description",
       "canonical",
       "noindex"
     ],
-    "ui:description": "Override default SEO settings for this page",
+    "ui___COLON___description": "Override default SEO settings for this page",
     "title": {
-      "ui:placeholder": "Custom SEO title...",
-      "ui:help": "Leave empty to use page title"
+      "ui___COLON___placeholder": "Custom SEO title...",
+      "ui___COLON___help": "Leave empty to use page title"
     },
     "description": {
-      "ui:widget": "textarea",
-      "ui:placeholder": "Custom meta description...",
-      "ui:options": {
+      "ui___COLON___widget": "textarea",
+      "ui___COLON___placeholder": "Custom meta description...",
+      "ui___COLON___options": {
         "rows": 2
       },
-      "ui:help": "Recommended: 150-160 characters"
+      "ui___COLON___help": "Recommended: 150-160 characters"
     },
     "canonical": {
-      "ui:placeholder": "https://example.com/canonical-url/",
-      "ui:help": "Only set if content is duplicated elsewhere"
+      "ui___COLON___placeholder": "https://example.com/canonical-url/",
+      "ui___COLON___help": "Only set if content is duplicated elsewhere"
     },
     "noindex": {
-      "ui:widget": "radio",
-      "ui:help": "Prevent search engines from indexing this page"
+      "ui___COLON___widget": "radio",
+      "ui___COLON___help": "Prevent search engines from indexing this page"
     }
   },
   "images": {
-    "ui:options": {
+    "ui___COLON___options": {
       "orderable": true
     },
     "items": {
-      "ui:placeholder": "images/feature.jpg"
+      "ui___COLON___placeholder": "images/feature.jpg"
     },
-    "ui:help": "Images for Open Graph and Twitter Card previews"
+    "ui___COLON___help": "Images for Open Graph and Twitter Card previews"
   },
   "aliases": {
-    "ui:options": {
+    "ui___COLON___options": {
       "orderable": true
     },
     "items": {
-      "ui:placeholder": "/old-url/"
+      "ui___COLON___placeholder": "/old-url/"
     },
-    "ui:help": "Old URLs that should redirect to this page"
+    "ui___COLON___help": "Old URLs that should redirect to this page"
   },
   "layout": {
-    "ui:placeholder": "single",
-    "ui:help": "Custom layout template (advanced users only)"
+    "ui___COLON___placeholder": "single",
+    "ui___COLON___help": "Custom layout template (advanced users only)"
   },
   "outputs": {
-    "ui:widget": "checkboxes",
-    "ui:help": "Select which output formats to generate"
+    "ui___COLON___widget": "checkboxes",
+    "ui___COLON___help": "Select which output formats to generate"
   },
   "cascade": {
-    "ui:widget": "textarea",
-    "ui:options": {
+    "ui___COLON___widget": "textarea",
+    "ui___COLON___options": {
       "rows": 4
     },
-    "ui:help": "Advanced: YAML object for cascading settings to child pages"
+    "ui___COLON___help": "Advanced: YAML object for cascading settings to child pages"
   },
   "resources": {
-    "ui:help": "Configure page bundle resources (advanced)",
+    "ui___COLON___help": "Configure page bundle resources (advanced)",
     "items": {
       "src": {
-        "ui:placeholder": "*.jpg"
+        "ui___COLON___placeholder": "*.jpg"
       },
       "name": {
-        "ui:placeholder": "header"
+        "ui___COLON___placeholder": "header"
       },
       "title": {
-        "ui:placeholder": "Header Image"
+        "ui___COLON___placeholder": "Header Image"
       },
       "params": {
-        "ui:widget": "textarea",
-        "ui:options": {
+        "ui___COLON___widget": "textarea",
+        "ui___COLON___options": {
           "rows": 2
         }
       }
     }
   }
 }
-
-
-
